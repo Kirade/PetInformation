@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		77281F5C2D06B91200C7A703 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 77281F5B2D06B91200C7A703 /* README.md */; };
+		77281F5E2D06B97F00C7A703 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 77281F5D2D06B97F00C7A703 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		77281F232D06A0F100C7A703 /* PetInformationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetInformationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77281F5B2D06B91200C7A703 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		77281F5D2D06B97F00C7A703 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		77281F1A2D06A0F100C7A703 = {
 			isa = PBXGroup;
 			children = (
+				77281F5D2D06B97F00C7A703 /* .gitignore */,
+				77281F5B2D06B91200C7A703 /* README.md */,
 				77281F252D06A0F100C7A703 /* PetInformationApp */,
 				77281F242D06A0F100C7A703 /* Products */,
 			);
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77281F5E2D06B97F00C7A703 /* .gitignore in Resources */,
+				77281F5C2D06B91200C7A703 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
